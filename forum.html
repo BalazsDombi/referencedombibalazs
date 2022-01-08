@@ -1,0 +1,48 @@
+<DOCYPTE html>
+    <head>
+<title>Forum</title>
+<link rel="stylesheet" href="webpagelook.css">
+<h1>Gobelin pictures</h1>
+<h2>Forum</h2>
+    </head>
+    <body>
+        <form method="POST" action="firstpage.html">
+            <input id="toppage" type="submit" value="Home page">
+            </form>
+                <form method="POST" action="pictures.html">
+                    <input id="toppage" type="submit" value="Pictures you can order"/>
+                </form>
+                <form method="POST" action="forum.html">
+                <input id="toppage" type="submit" value="Forum">
+            </form>
+            <br>
+            <br>
+            <br>
+    <input type="text" placeholder="Your name" id="yourname">
+    <input type="text" placeholder="Your comment" id="yourcomment">
+    
+    <button id="submit" value="submitbutton" onclick="placecomment()">Submit</button>
+    <p id="commentsplace"></p>
+    <script>
+
+
+         function placecomment() {
+           
+            var x = document.getElementById("yourname").value;
+            var y = document.getElementById("yourcomment").value;
+            localStorage.setItem("comment", x+" "+y);
+            document.getElementById("commentsplace").innerHTML =
+            localStorage.getItem("comment");
+            
+        }
+
+        
+localStorage.getItem("comment");
+document.getElementById("commentsplace").innerHTML =
+localStorage.getItem("comment");
+
+    </script>
+
+</div>
+</body>
+</html>

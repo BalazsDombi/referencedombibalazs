@@ -1,0 +1,68 @@
+h1{
+
+    text-align: center;
+}
+h2{
+
+    text-align: center;
+}
+buttons {
+    background-color: cornflowerblue;
+}
+
+body {
+    margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 500px;
+  margin-left: 480px;
+    text-align: center;
+    text-align:justify;
+    background-color:black;
+    color:cornsilk;
+}
+.price {
+
+    color:red;
+    size:35px;
+}
+#counter{
+
+    height:50px;
+    width:100px;
+    background-color: aliceblue;
+    color:black;
+}
+#cart{
+
+    height:100px;
+    width:200px;
+    background-color:rgb(138, 138, 236);
+    color:black;
+}
+#toppage {
+
+    background-color: aqua; 
+    border-color:azure";
+    border:1px solid;
+    padding:10px 24px;
+    float: left;
+    cursor: pointer;
+    float:top;
+}
+#toppage:hover{
+
+    background-color: rgb(207, 219, 215);
+}
+#commentsplace {
+    height:400px;
+    width:500px;
+    background-color:rgb(206, 216, 59);
+    color:black;
+}
+
+#button2 {
+
+    float:left;
+    cursor:pointer;
+    padding:10px 24px;
+}
